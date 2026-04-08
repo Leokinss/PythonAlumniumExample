@@ -1,4 +1,4 @@
-Example using Python Alumnium AI UI Automation library.
+Example for Web UI automation using AI with Python Alumnium library.
 
 I am using Google Gemini 3.1 Flash Lite on free API key.
 Cost per prompt is about ~1000 tokens.
