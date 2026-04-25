@@ -1,4 +1,4 @@
-Example for Web UI automation using AI with Python Alumnium library.
+Example for Web UI automation using AI prompting with Python Alumnium library.
 
 Link to library project: https://github.com/alumnium-hq/alumnium/blob/main/README.md
 
