@@ -1,19 +1,34 @@
-Example for Web UI automation using AI prompting with Python Alumnium library.
-Alumnium currently integrates with Playwright, Appium, and Selenium
+# Alumnium AI Web UI Automation
 
-Link to library project: https://alumnium.ai/
-GitHub: https://github.com/alumnium-hq/alumnium/blob/main/README.md
+Example for Web UI automation using AI prompting with the Python Alumnium library.
+Alumnium currently integrates with Playwright, Appium, and Selenium.
 
-I am using Google Gemini 3.1 Flash Lite on free API key.
-Cost per prompt is about ~1000 tokens.
-API Key is defined in .env files like this:
+## Links
+- **Library:** https://alumnium.ai/
+- **GitHub:** https://github.com/alumnium-hq/alumnium/blob/main/README.md
+
+## Setup
+
+I am using Google Gemini 2.0 Flash Lite on a free API key.
+
+Cost per prompt is approximately ~1000 tokens.
+
+Add the following to your `.env` file:
+```env
 ALUMNIUM_MODEL=google
 GOOGLE_API_KEY=...
+```
 
-I notice it is quite slow. Probably scanning whole page and traversing the element tree to find elements. Takes up to ~10s per prompt. For a test with many prompts(actions) it may take long time to execute.
+## Running Tests
 
-Video Demo:
+```bash
+pytest
+```
+
+## Notes
+
+Performance is quite slow — likely due to scanning the whole page and traversing the element tree to find elements. Takes up to ~10s per prompt. For a test with many prompts/actions, total execution time may be significant.
+
+## Video Demo
 
 https://github.com/user-attachments/assets/b6978062-d9e3-4386-804d-0421ef409bae
-
-run command: pytest
