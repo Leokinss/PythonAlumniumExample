@@ -12,3 +12,4 @@ Video Demo:
 
 https://github.com/user-attachments/assets/b6978062-d9e3-4386-804d-0421ef409bae
 
+run command: pytest
