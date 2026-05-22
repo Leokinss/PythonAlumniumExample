@@ -1,6 +1,8 @@
 Example for Web UI automation using AI prompting with Python Alumnium library.
+Alumnium currently integrates with Playwright, Appium, and Selenium
 
-Link to library project: https://github.com/alumnium-hq/alumnium/blob/main/README.md
+Link to library project: https://alumnium.ai/
+GitHub: https://github.com/alumnium-hq/alumnium/blob/main/README.md
 
 I am using Google Gemini 3.1 Flash Lite on free API key.
 Cost per prompt is about ~1000 tokens.
