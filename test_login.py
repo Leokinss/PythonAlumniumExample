@@ -1,7 +1,10 @@
 import os
 from alumnium import Alumni
+from dotenv import load_dotenv
 from selenium.webdriver import Chrome
 from pytest import fixture
+
+load_dotenv()
 
 @fixture
 def driver():

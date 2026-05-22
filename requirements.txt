@@ -1,3 +1,4 @@
 alumnium
 selenium
 pytest
+python-dotenv
