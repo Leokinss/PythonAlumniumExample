@@ -1,10 +1,9 @@
 import os
-from alumnium import Alumni
 from dotenv import load_dotenv
+load_dotenv() # ensures that API key is loaded before alumnium is imported
+from alumnium import Alumni
 from selenium.webdriver import Chrome
 from pytest import fixture
-
-load_dotenv()
 
 @fixture
 def driver():

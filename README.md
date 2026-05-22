@@ -4,7 +4,9 @@ Link to library project: https://github.com/alumnium-hq/alumnium/blob/main/READM
 
 I am using Google Gemini 3.1 Flash Lite on free API key.
 Cost per prompt is about ~1000 tokens.
-API Key is defined in env variables. Library automatically uses it with MCP.
+API Key is defined in .env files like this:
+ALUMNIUM_MODEL=google
+GOOGLE_API_KEY=...
 
 I notice it is quite slow. Probably scanning whole page and traversing the element tree to find elements. Takes up to ~10s per prompt. For a test with many prompts(actions) it may take long time to execute.
 
