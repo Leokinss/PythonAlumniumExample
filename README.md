@@ -9,7 +9,7 @@ Alumnium currently integrates with Playwright, Appium, and Selenium.
 
 ## Setup
 
-I am using Google Gemini 2.0 Flash Lite on a free API key.
+I am using Google Gemini on a free API key.
 
 Cost per prompt is approximately ~1000 tokens.
 
